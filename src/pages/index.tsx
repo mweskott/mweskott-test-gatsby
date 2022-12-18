@@ -92,6 +92,13 @@ const badgeStyle = {
 
 const links = [
   {
+    text: "My Gatsby Tutorial - Lession 2",
+    url: "/my-tutorial/lession-2",
+    description:
+      "First Tutorial Page.",
+    color: "#E95800",
+  },
+  {
     text: "Tutorial",
     url: "https://www.gatsbyjs.com/docs/tutorial/",
     description:
