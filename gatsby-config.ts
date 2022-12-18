@@ -4,6 +4,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `MWeskott Test Gatsby`,
     siteUrl: `https://www.yourdomain.tld`,
+    description: "Gatsby first contact with tutorial."
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -12,6 +13,13 @@ const config: GatsbyConfig = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      }
+    },
   ],
 
 }

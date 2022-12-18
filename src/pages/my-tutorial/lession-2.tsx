@@ -2,6 +2,7 @@ import { HeadFC, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 import Layout from "../../components/layout"
+import Seo from "../../components/seo"
 
 export default function Component () {
   return (
@@ -21,7 +22,7 @@ export default function Component () {
 
 export const Head: HeadFC = () => (
     <>
-        <title>tutotial - lession 2</title>
+        <Seo title={"tutotial - lession 2"} />
         <meta name="description" content="Gatsby Tutorial - Lession 2" />
     </>
 )
