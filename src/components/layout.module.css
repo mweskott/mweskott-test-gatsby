@@ -24,3 +24,7 @@
   font-weight: 700;
   margin: 3rem 0;
 }
+
+.main {
+  border: 1px salmon solid;
+}
